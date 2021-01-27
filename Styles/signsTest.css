@@ -1,0 +1,161 @@
+/* Top Wrapper */
+.nav-wrapper{
+    background-color: blue;
+}
+
+/* logo */
+.brand-logo{
+    margin-left: 2cm;
+}
+
+/* Container */
+.container{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    width: 1000px;
+    height: 600px;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+
+/* Welcome to Traffic... text decorations */
+h2{
+    padding: 4px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2cm;
+    font-style: normal;
+    font-size: 1.2cm;
+    color: #202020;
+    padding: 20px 20px;
+}
+
+/* Question text */
+.questionsText{
+    margin-left: 1.75cm;
+    padding: 10px 20px;
+    font-size: 0.75cm;
+    font-weight: 500;
+}
+
+/* Controls (Start Quiz, Next) */
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+/* "Start Quiz" button */
+.start-btn {
+    margin-top: 3.6cm;
+    height: 2cm;
+    width: max-content;
+    font-size: 1cm;
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    background-color: #b380ff;
+    padding: 10px 20px;
+}
+
+/* "Next" button */
+.next-btn {
+    position: absolute;
+    right: 250px;
+    top: 640px;
+    float: right;
+    height: 1.5cm;
+    width: max-content;
+    font-size: 0.75cm;
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    background-color: #b380ff;
+    padding: 10px 20px;
+}
+
+/* General Choices buttons */
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-left: 4.5rem;
+    height: 2cm;
+    width: 50%;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+    gap: 10px;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    background-color: #b3b3ff;
+    transition: 0.3ms;
+}
+
+.choice-prefix {
+    padding: 10px 10px;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+}
+
+.choice-text{
+    padding:10px;
+    font-size: medium;
+    width: 100%;
+}
+
+/* Individual Choices buttons */
+.choicesBtn {
+    background-color: #ff6666;
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 10px 10px;
+    color: white;
+}
+
+/* Individual Choices buttons hover */
+.choicesBtn:hover {
+    background-color: #ff4d4d ;
+    transition: 0.3s;
+}
+
+/* hide option */
+.hide1 {
+    display: none;
+}
+
+/* images displayed */
+.images {
+    position: absolute;
+    right: 275px;
+    top: 200px;
+}
+
+/* Correct Class */
+.correct{
+    background-color:greenyellow;
+}
+
+/* Incorrect Class */
+.incorrect{
+    background-color:red;
+}
+
+/* Progress Text "Question 1 out of 5" ... */
+.progressText{
+    position: absolute;
+    top: 220px;
+    left:300px;
+    font-weight: 450;
+    font-size: large;
+}
+
+/* Correction Text */
+.correction{
+    margin-left: 2cm;
+    margin-top: 1.4cm;
+    font-size: larger;
+    font-weight: 400;
+}
