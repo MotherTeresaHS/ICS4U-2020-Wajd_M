@@ -28,7 +28,7 @@
 }
 
 
-/* Welcome to Motorcycle test.. text decorations */
+/* Welcome to Motorcycle quiz.. text decorations */
 h1{
     padding: 1cm;
     text-align: center;
@@ -39,7 +39,7 @@ h1{
     color: black;
 }
 
-/* Welcome to Car test.. text decorations */
+/* Welcome to Car quiz.. text decorations */
 h2{
     padding: 1cm;
     text-align: center;
@@ -58,7 +58,7 @@ p{
     font-weight: 600;
 }
 
-/* Signs test button */
+/* Signs quiz button */
 .signs-button{
     background-color: blue; /* Green */
     border: none;
@@ -75,13 +75,13 @@ p{
     margin-left: 2.5cm;
 }
 
-/* Signs test button hover */
+/* Signs quiz button hover */
 .signs-button:hover {
     background-color: #001b75;
     color: white;
 }
 
-/* Traffic Rules test button */
+/* Traffic Rules quiz button */
 .traffic-button{
     background-color: rgb(0, 0, 0); /* Green */
     border: none;
@@ -97,9 +97,8 @@ p{
     margin-left: 1cm;
 }
 
-/* Signs test button hover */
+/* Signs quiz button hover */
 .traffic-button:hover {
     background-color: red;
     color: white;
 }
-  

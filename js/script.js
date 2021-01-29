@@ -1,6 +1,5 @@
 /**
- * The Main.js program lets the user change truck and bike's 
- * information, and take them for a ride.
+ * The script.js is the main Java Script file of the quiz game.
  * 
  * @author Wajd Mariam <wajd.mariam@mths.ca>
  * Version 1.0
@@ -31,5 +30,7 @@ function startWebsite() {
 // This function assigns name entered to a variable:
 function assigningName() {
     // Assigning entered name input to variable for later usage:
-    var nameUser = document.getElementById('nameTextBox').value;
+    const nameUser = document.getElementById('nameTextBox').value;
+    // Exporting item for later use:
+    localStorage.setItem('userName', nameUser);
 }

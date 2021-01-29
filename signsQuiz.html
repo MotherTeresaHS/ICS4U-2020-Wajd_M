@@ -1,11 +1,11 @@
 <!DOCTYPE html> 
 <html lang="eng">
     <head>
-        <title>Index</title>
+        <title>Signs Test</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link href="Styles/signsTest.css" rel="styleSheet" type="text/css" >
-        <script defer src="js/signsTestScript.js"></script>
+        <link href="Styles/signsQuiz_styles.css" rel="styleSheet" type="text/css" >
+        <script defer src="js/signsQuizScript.js"></script>
     </head>
     <header>
         <nav>
@@ -21,6 +21,7 @@
         </nav>
     </header>
     <body>
+        <p id="currentQuiz" class="hide1">signsQuiz.html</p>
         <div class="container">
             <div id="title">
                 <h2>Welcome to Traffic Signs Test!</h2>
@@ -46,32 +47,11 @@
                 <div id="correction" class="correction hide1">
                     <p>correction</p>
                 </div>
-                <div id="image" class= "images"></div>
-                <p id="progressText" class="progressText"></p>
             </div>
-            <div></div>
+            <p id="progressText" class="progressText"></p>            
+            <div id="image" class= "images"></div>
             <div class="controls">
                 <button id="startButton" class="start-btn">Start Quiz!</button>
-            </div>
-            <button id="nextButton" class="next-btn hide1">Next Question</button>
-
-            <div class="score-container">
-                <div id="userPass" class="hide1">
-                    <h2 class="finalTitle">Congratulations!</h2>
-                    <p class="finalText">You passed your Signs test!</p>
-                    <p id="passMark" class="finalText">You got </p>
-                    <p id="passName" class="finalText">Way to go! </p>
-                </div>
-                <div id="userFail" class="hide1">
-                    <h2 class="finalTitle">Unlucky :(</h2>
-                    <p class="finalText">You didn't passed your Signs test</p>
-                    <p id="failMark" class="finalText">You got </p>
-                    <p id="failName" class="finalText">You will get it next time</p>
-                </div>
-                <div class="controlsFinal hide1">
-                    <button id="redoButton" class="redo-btn">Redo Quiz</button>
-                    <button id="mainMenuButton" class="main-btn">Main Menu</button>
-                </div>
             </div>
         </div>
     </body>
